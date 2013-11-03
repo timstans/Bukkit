@@ -11,9 +11,9 @@
     </properties>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:Bukkit/Bukkit.git</developerConnection>
-        <connection>scm:git:git://github.com/Bukkit/Bukkit.git</connection>
-        <url>https://github.com/Bukkit/Bukkit/tree/master/</url>
+        <developerConnection>scm:git:git@github.com:timstans/Bukkit.git</developerConnection>
+        <connection>scm:git:git://github.com/timstans/Bukkit.git</connection>
+        <url>https://github.com/timstans/Bukkit/tree/master</url>
     </scm>
 
     <ciManagement>
