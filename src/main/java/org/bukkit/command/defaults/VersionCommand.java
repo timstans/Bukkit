@@ -29,7 +29,7 @@ public class VersionCommand extends BukkitCommand {
         if (!testPermission(sender)) return true;
 
         if (args.length == 0) {
-            sender.sendMessage("Server is running: " + Bukkit.getName() + " version " + Bukkit.getVersion() + " (Implementing API version " + Bukkit.getBukkitVersion() + ")");
+            sender.sendMessage(ChatColor.AQUA+"Server is running: " +ChatColor.GREEN+ Bukkit.getName() + ChatColor.AQUA+" Version: " + Bukkit.getVersion());
         } else {
             StringBuilder name = new StringBuilder();
 
