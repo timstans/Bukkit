@@ -62,7 +62,7 @@ public final class Bukkit {
         }
 
         Bukkit.server = server;
-        server.getLogger().info("Custom ver " + getName() + " version " + getVersion() + " (Implementing API version " + getBukkitVersion() + ")");
+        server.getLogger().info("TimsLIB " + getName() + " version " + getVersion() + " (Implementing API version " + getBukkitVersion() + ")");
     }
 
     /**
